@@ -1,0 +1,73 @@
+header{
+    /*titulo*/
+    div{
+        h1{
+            color: $color-titulo;
+            font-weight: 700;
+            text-align: center;
+            background-image: url(../img/img5.webp);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+            height: 200px;
+        }
+        nav{
+            ul{
+                /*menu*/
+                li{
+                    display: flex;
+                    justify-content: space-around;
+                    background-color: $color-fondo2;
+                    a{
+                        color: $color-fondo;
+                        text-decoration: none;
+                        padding: 25px;
+                        border: solid 2px $color-letra;
+                        margin: 1px 3px 1px 3px;
+                        a:hover{
+                            background-color: rgb(253, 0, 0);
+                    }
+                }
+            }
+            /*principal*/
+            h2 {
+                color: $color-letra1;
+                font-weight: 100;
+            }
+            h4 {
+                color: $color-letra;
+            }
+            /*contacto*/
+            #staff {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 600;
+                color: $color-letra;
+            h3 {
+                color: $color-letra;
+            }
+            p {
+                color: rgb(255, 255, 255);
+            }
+        }
+        /*informacion*/
+        h5{
+            color: $color-letra;
+        }
+    }
+    }
+    main{
+        /*cuenta*/
+        .recuadro1 {
+            height: 280px;
+            width: 50%;
+            text-align: center;
+        }
+        legend {
+            color: $color-letra1;
+        }
+        #registro1{
+            color: $color-letra;
+        }
+    }
+}
+}
